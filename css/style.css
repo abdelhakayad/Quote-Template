@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+* {
+   font-family: 'Manrope', sans-serif; 
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: #1f2531;
+   font-size: 20px;
+   min-height: 100vh;
+}
+
+
+.card-cont {
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   text-align: center;
+   
+ }
+ 
+ .card {
+   background-color: #323a49;
+   margin: 200px 0;
+   width: 30em;
+   box-shadow: 0 5px 50px #1f2531;
+   border-radius: 20px;
+  }
+
+  h3 {
+   color:#52ffa8;
+   font-size: .9em;
+   padding: 20px 0 30px 0; 
+  }
+
+  p {
+   color:#ffffff;
+   font-size: 1.5em;
+   padding: 20px 0 30px 0; 
+   font-weight: 900;
+  }
+
+  h6 {
+   color:#52ffa8;
+   font-size: .6em;
+   padding: 20px 0 40px 0; 
+  }
+
+ .circle {
+   background-color:#52ffa8;
+   position: absolute;
+   left: 48%;
+   top: 66%;
+   color: white;
+   padding: 14px 22px;
+   border-radius: 30px;
+  
+ }
+ 
+ .circle:hover {
+   box-shadow: 0 5px 50px #52ffa8;
+ }
+ 
+ 
+ @media only screen and (min-width: 600px) and (max-width: 1023px) {
+ body {
+	font-size: 14px;	
+	} 
+	
+ 
+ .card {
+   width: 40em;
+  }
+
+  h3 {
+   font-size: .8em;
+  }
+
+  p {
+   font-size: 1.5em; 
+  }
+
+  h6 {
+   font-size: .7em;
+  }
+
+ .circle {
+   background-color:#52ffa8;
+   position: absolute;
+   left: 46%;
+   top: 68%;
+   color: white;
+   padding: 14px 22px;
+   border-radius: 30px;
+  
+ }
+	
+	 
+ }
